@@ -1,0 +1,13 @@
+#frame {
+	width: 1500px;
+	height: 500px;
+}
+
+circle {
+	fill: limegreen;
+}
+
+line { 
+	stroke: darkblue;
+	stroke-width: 20px;
+}
