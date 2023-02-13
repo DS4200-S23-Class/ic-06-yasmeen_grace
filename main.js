@@ -2,14 +2,13 @@
 
 
 //Event handler for click
-function buttonClicked(line)
+function buttonClicked()
 {
 	document.getElementbyId("line").style.color = "red"
 }
 
 // add event listener for line
-document.getElementbyId("lineButton")
-.addEventListener("click", buttonClicked);
+document.getElementbyId("lineButton").addEventListener("click", buttonClicked);
 
 // add mouseover and mouseout
 function mouseOver()
